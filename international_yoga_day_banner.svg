@@ -1,0 +1,169 @@
+<svg viewBox="0 0 4000 675" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Peaceful gradient background -->
+    <linearGradient id="peacefulGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e5a6a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d7a7a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a9b6f;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Radial gradient for glow effects -->
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7dd3fc;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="4000" height="675" fill="url(#peacefulGradient)"/>
+  
+  <!-- Decorative circles in background -->
+  <circle cx="200" cy="150" r="120" fill="url(#glowGradient)"/>
+  <circle cx="3800" cy="550" r="140" fill="url(#glowGradient)"/>
+  <circle cx="2000" cy="100" r="100" fill="url(#glowGradient)" opacity="0.5"/>
+  
+  <!-- Lotus flower illustration 1 (Left side) -->
+  <g transform="translate(400, 280)">
+    <!-- Lotus petals -->
+    <ellipse cx="0" cy="-35" rx="18" ry="38" fill="#a0e7e5" opacity="0.9"/>
+    <ellipse cx="25" cy="-25" rx="18" ry="38" fill="#a0e7e5" opacity="0.9" transform="rotate(45 0 0)"/>
+    <ellipse cx="35" cy="0" rx="18" ry="38" fill="#a0e7e5" opacity="0.9" transform="rotate(90 0 0)"/>
+    <ellipse cx="25" cy="25" rx="18" ry="38" fill="#a0e7e5" opacity="0.9" transform="rotate(135 0 0)"/>
+    <ellipse cx="0" cy="35" rx="18" ry="38" fill="#a0e7e5" opacity="0.9" transform="rotate(180 0 0)"/>
+    <ellipse cx="-25" cy="25" rx="18" ry="38" fill="#a0e7e5" opacity="0.9" transform="rotate(225 0 0)"/>
+    <ellipse cx="-35" cy="0" rx="18" ry="38" fill="#7dd3fc" opacity="0.9" transform="rotate(270 0 0)"/>
+    <ellipse cx="-25" cy="-25" rx="18" ry="38" fill="#7dd3fc" opacity="0.9" transform="rotate(315 0 0)"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="12" fill="#fbbf24"/>
+    <circle cx="0" cy="0" r="8" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Yoga pose 1 - Mountain pose (Left-center) -->
+  <g transform="translate(900, 350)">
+    <!-- Head -->
+    <circle cx="0" cy="-50" r="18" fill="#c7d2fe"/>
+    <!-- Body -->
+    <rect x="-12" y="-28" width="24" height="50" fill="#e0e7ff" rx="4"/>
+    <!-- Arms -->
+    <rect x="-35" y="-15" width="23" height="12" fill="#e0e7ff" rx="6"/>
+    <rect x="12" y="-15" width="23" height="12" fill="#e0e7ff" rx="6"/>
+    <!-- Legs -->
+    <rect x="-10" y="25" width="10" height="35" fill="#c7d2fe" rx="5"/>
+    <rect x="0" y="25" width="10" height="35" fill="#c7d2fe" rx="5"/>
+  </g>
+  
+  <!-- Tree branch decoration -->
+  <g transform="translate(1300, 100)">
+    <path d="M 0 0 Q 20 -30 40 -50 Q 50 -60 65 -65" stroke="#7dd3fc" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 0 0 Q -20 -20 -35 -40 Q -45 -55 -55 -70" stroke="#a0e7e5" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <ellipse cx="40" cy="-55" rx="8" ry="12" fill="#52d3aa" transform="rotate(-30 40 -55)"/>
+    <ellipse cx="55" cy="-68" rx="8" ry="12" fill="#52d3aa" transform="rotate(-20 55 -68)"/>
+    <ellipse cx="-35" cy="-45" rx="8" ry="12" fill="#52d3aa" transform="rotate(30 -35 -45)"/>
+    <ellipse cx="-50" cy="-65" rx="8" ry="12" fill="#52d3aa" transform="rotate(25 -50 -65)"/>
+  </g>
+  
+  <!-- Yoga pose 2 - Lotus position (Center) -->
+  <g transform="translate(1900, 350)">
+    <!-- Head -->
+    <circle cx="0" cy="-55" r="20" fill="#d1d5db"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="-20" rx="20" ry="30" fill="#e5e7eb"/>
+    <!-- Legs in lotus -->
+    <ellipse cx="-25" cy="30" rx="18" ry="25" fill="#d1d5db"/>
+    <ellipse cx="25" cy="30" rx="18" ry="25" fill="#d1d5db"/>
+    <!-- Hands on knees -->
+    <circle cx="-28" cy="15" r="8" fill="#d1d5db"/>
+    <circle cx="28" cy="15" r="8" fill="#d1d5db"/>
+  </g>
+  
+  <!-- Mandala circle decoration -->
+  <g transform="translate(2600, 200)">
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#7dd3fc" stroke-width="2"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#a0e7e5" stroke-width="1"/>
+    <!-- Inner petals -->
+    <circle cx="0" cy="-30" r="8" fill="#52d3aa"/>
+    <circle cx="26" cy="-15" r="8" fill="#52d3aa" transform="rotate(60 0 0)"/>
+    <circle cx="26" cy="15" r="8" fill="#52d3aa" transform="rotate(120 0 0)"/>
+    <circle cx="0" cy="30" r="8" fill="#52d3aa" transform="rotate(180 0 0)"/>
+    <circle cx="-26" cy="15" r="8" fill="#52d3aa" transform="rotate(240 0 0)"/>
+    <circle cx="-26" cy="-15" r="8" fill="#52d3aa" transform="rotate(300 0 0)"/>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="12" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Yoga pose 3 - Downward dog (Right-center) -->
+  <g transform="translate(3200, 380)">
+    <!-- Inverted V shape body -->
+    <path d="M -25 -10 L 0 30 L 25 -10" stroke="#e0e7ff" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="35" r="12" fill="#c7d2fe"/>
+    <!-- Arms -->
+    <circle cx="-18" cy="8" r="10" fill="#e0e7ff"/>
+    <circle cx="18" cy="8" r="10" fill="#e0e7ff"/>
+  </g>
+  
+  <!-- Water ripple decoration -->
+  <g transform="translate(3700, 550)" opacity="0.6">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#7dd3fc" stroke-width="2"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#a0e7e5" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#7dd3fc" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Lotus flower illustration 2 (Right side) -->
+  <g transform="translate(3600, 150)">
+    <!-- Lotus petals -->
+    <ellipse cx="0" cy="-30" rx="15" ry="32" fill="#a0e7e5" opacity="0.9"/>
+    <ellipse cx="21" cy="-21" rx="15" ry="32" fill="#a0e7e5" opacity="0.9" transform="rotate(45 0 0)"/>
+    <ellipse cx="30" cy="0" rx="15" ry="32" fill="#a0e7e5" opacity="0.9" transform="rotate(90 0 0)"/>
+    <ellipse cx="21" cy="21" rx="15" ry="32" fill="#a0e7e5" opacity="0.9" transform="rotate(135 0 0)"/>
+    <ellipse cx="0" cy="30" rx="15" ry="32" fill="#7dd3fc" opacity="0.9" transform="rotate(180 0 0)"/>
+    <ellipse cx="-21" cy="21" rx="15" ry="32" fill="#7dd3fc" opacity="0.9" transform="rotate(225 0 0)"/>
+    <ellipse cx="-30" cy="0" rx="15" ry="32" fill="#7dd3fc" opacity="0.9" transform="rotate(270 0 0)"/>
+    <ellipse cx="-21" cy="-21" rx="15" ry="32" fill="#a0e7e5" opacity="0.9" transform="rotate(315 0 0)"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="10" fill="#fbbf24"/>
+    <circle cx="0" cy="0" r="6" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Leaf decoration elements -->
+  <g transform="translate(500, 100)">
+    <path d="M 0 0 Q 8 -5 12 -15" stroke="#52d3aa" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="12" cy="-15" rx="6" ry="10" fill="#52d3aa" transform="rotate(-45 12 -15)"/>
+  </g>
+  
+  <g transform="translate(3500, 650)">
+    <path d="M 0 0 Q -8 5 -12 15" stroke="#52d3aa" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="15" rx="6" ry="10" fill="#52d3aa" transform="rotate(45 -12 15)"/>
+  </g>
+  
+  <!-- Additional decorative elements - spirals -->
+  <g transform="translate(1500, 550)" opacity="0.7">
+    <path d="M 0 0 Q 10 5 15 15 T 20 40" stroke="#7dd3fc" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(2500, 100)" opacity="0.7">
+    <path d="M 0 0 Q -10 -5 -15 -15 T -20 -40" stroke="#a0e7e5" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Additional yoga pose - Child's pose (Right) -->
+  <g transform="translate(3300, 200)">
+    <!-- Back -->
+    <ellipse cx="0" cy="0" rx="22" ry="40" fill="#e5e7eb"/>
+    <!-- Head tucked -->
+    <circle cx="0" cy="35" r="16" fill="#d1d5db"/>
+    <!-- Arms stretched -->
+    <rect x="-28" y="-5" width="12" height="25" fill="#d1d5db" rx="6" transform="rotate(-30 -22 0)"/>
+    <rect x="16" y="-5" width="12" height="25" fill="#d1d5db" rx="6" transform="rotate(30 22 0)"/>
+  </g>
+  
+  <!-- Subtle background pattern elements -->
+  <g opacity="0.15">
+    <circle cx="800" cy="400" r="80" fill="#ffffff"/>
+    <circle cx="2200" cy="600" r="100" fill="#ffffff"/>
+    <circle cx="3300" cy="300" r="90" fill="#ffffff"/>
+  </g>
+</svg>
